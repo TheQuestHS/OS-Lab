@@ -1,6 +1,4 @@
 ﻿
-Script started on 2019-03-06 08:14:05+0530
-#]0;ramkaushik@ram-kaushik: ~/Documents/College/OS-Lab/Ex7##[01;32mramkaushik@ram-kaushik#[00m:#[01;34m~/Documents/College/OS-Lab/Ex7#[00m$ cat sample.c
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -132,7 +130,7 @@ int main(){
   printf("\n Main process exited \n\n");
   return(0);
 }
-#]0;ramkaushik@ram-kaushik: ~/Documents/College/OS-Lab/Ex7##[01;32mramkaushik@ram-kaushik#[00m:#[01;34m~/Documents/College/OS-Lab/Ex7#[00m$ ./sample
+
 
  Main Process Started 
 
@@ -238,7 +236,7 @@ Consumer 2143 released Semaphore Empty
  Consumer 2143 exited 
 
  Producer 2142 exited 
-#]0;ramkaushik@ram-kaushik: ~/Documents/College/OS-Lab/Ex7##[01;32mramkaushik@ram-kaushik#[00m:#[01;34m~/Documents/College/OS-Lab/Ex7#[00m$ cat producer.c
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -313,7 +311,7 @@ int main(){
 }
 
 
-#]0;ramkaushik@ram-kaushik: ~/Documents/College/OS-Lab/Ex7##[01;32mramkaushik@ram-kaushik#[00m:#[01;34m~/Documents/College/OS-Lab/Ex7#[00m$ cat consumer.c
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -389,10 +387,6 @@ int main(){
   printf("\nConsumer Process Ended\n");
   return(0);
 }
-#]0;ramkaushik@ram-kaushik: ~/Documents/College/OS-Lab/Ex7##[01;32mramkaushik@ram-kaushik#[00m:#[01;34m~/Documents/College/OS-Lab/Ex7#[00m$ exit
-exit
-
-Script done on 2019-03-06 08:14:33+0530
 
 
 
